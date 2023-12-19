@@ -1,0 +1,28 @@
+.myforms {
+    display: flex;
+}
+.left, .right {
+    width: 50%;
+    padding-left: 2%;
+}
+.btn-primary {
+    margin: 10px;
+    margin-left: 0;
+}
+.expression {
+    display: flex;
+    width: 50%;
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    .selected-expression {
+        font-weight: bold;
+        margin-right: 5%;
+    }
+}
+.exp {
+    width: 100%;
+    display: flex;
+    #selected-exp {
+        margin-right: 10%;
+    }
+}
