@@ -31,7 +31,7 @@ To run this application locally, ensure you have the following installed:
    ```bash
     git clone https://github.com/AkramMulani/Math-Operations-React
 
-2. Clone React application repository:
+2. Clone Springboot Rst API repository:
 
     ```bash
    git clone https://github.com/AkramMulani/Math-Operations-Springboot
