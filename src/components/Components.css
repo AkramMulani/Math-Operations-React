@@ -1,0 +1,4 @@
+.tb-content-del:hover {
+    th,td { background-color: rgb(115, 183, 161);}
+    cursor: pointer;
+}
