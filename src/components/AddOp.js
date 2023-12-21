@@ -18,7 +18,6 @@ export default function AddOp(props) {
     }
     const onContinue = () => {
         SpringbootService.addOperation(name,exp).then(data=>setMsg(data));
-        alert(`Adding ${name} with expression ${exp}`);
     }
     return (
     <>
