@@ -21,7 +21,6 @@ export default function Navbar(props) {
         console.log('data: ',d);
       }
       else {
-        setData([]);
         setSelectedOperation('No Operation Found');
         console.log('No data');
       }
