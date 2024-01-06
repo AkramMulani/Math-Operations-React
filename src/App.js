@@ -11,6 +11,7 @@ import Features from './components/Features';
 function App() {
 
   const [tab, setTab] = useState(1);
+  const [selected_operation, setSelectedOperation] = useState('No operation selected');
 
   const handleTabChange = (number) => {
     setTab(number);
@@ -18,9 +19,9 @@ function App() {
 
   return (
     <>
-    <Navbar onTabSelect={handleTabChange} />
+    <Navbar onTabSelect={handleTabChange} onSelectOperation={setSelectedOperation} />
     {
-      tab===1 ? <HomeTab />:
+      tab===1 ? <HomeTab operation={selected_operation}/>:
       tab===2 ? <AddOp onCancel={handleTabChange}/>:
       tab===3 ? <DelOp />:
       tab===4 ? <Features />:
